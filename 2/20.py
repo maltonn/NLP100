@@ -9,6 +9,5 @@ with open ('jawiki-country.json','r',encoding='utf-8_sig') as f:
 
 for dic in lst:
     if dic['title']=='イギリス':
-        print(dic['text'])
-
+        return dic['text']
 
